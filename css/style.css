@@ -48,8 +48,9 @@ header:after{
 footer {
     background-color: black;
     height: 200px;
-    position: relative;  }
-  footer:after {
+    position: relative;  
+}
+footer:after {
     content: "";
     position: absolute;
     width: 100%;
