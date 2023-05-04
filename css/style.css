@@ -22,3 +22,25 @@ body{
     width: 33.3%;
     background-color: chocolate;
 }
+/*estilos header*/
+header {
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    position: relative;
+    font-size: 70px;
+}
+header:after{
+    content: "";
+    clip-path: polygon(0 100%,100% 100%,0 0);
+    background:rgb(255, 255, 255);
+    height: 60px;
+    width: 100%;
+    position: absolute;
+        bottom: -1px;
+        z-index: 1;
+}
