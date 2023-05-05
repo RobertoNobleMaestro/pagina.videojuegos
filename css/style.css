@@ -39,7 +39,7 @@ header {
     justify-content: center;
     height: 60vh;
     position: relative;
-    font-size: 70px;
+    font-size: 50px;
 }
 header:after{
     content: "";
@@ -65,8 +65,8 @@ h1{
     text-align: center;
     background-color: rgb(255, 255, 255);
     border: 10px solid black;
-    height: 220px;
-    width: 400px;
+    height: 300px;
+    width: 500px;
 }
 img{
     transition: 1s;
@@ -112,9 +112,9 @@ img:hover{
         width: 80%;
     }
     h1{
-        height: 180px;
-        width: 300px;
-        font-size: 90px;
+        height: 280px;
+        width: 400px;
+        font-size: 80px;
         padding-top: 10px;
     }
     footer{
